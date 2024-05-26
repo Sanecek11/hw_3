@@ -7,7 +7,7 @@ import sys
 from PySide6.QtWidgets import QApplication, QMainWindow, QTabWidget, QVBoxLayout, QLineEdit, QLabel, QPushButton,\
     QSlider, QHBoxLayout, QWidget
 from PySide6.QtCore import Slot, Qt
-from a_threads import SystemInfo, WeatherHandler  # Предполагается, что эти классы доступны
+from a_threads import SystemInfo, WeatherHandler
 
 
 class SystemInfoWidget(QWidget):
